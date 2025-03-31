@@ -20,10 +20,6 @@ ul {
 	margin: 0 auto;
 }
 
-.header__inner {
-	padding-block: 20px;
-}
-
 header {
 	background-color: rgb(255, 255, 255);
 }
@@ -35,6 +31,18 @@ main {
 footer {
 	flex-shrink: 0;
 	background-color: rgb(255, 255, 255);
+}
+
+.header__nav {
+	display: flex;
+	column-gap: 20px;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block: 10px;
 }
 
 .footer__inner {
@@ -55,11 +63,22 @@ footer {
 	justify-content: space-between;
 }
 
+.logo img{
+	max-width: 45px;
+}
+
 .footer__inner > p {
 	text-align: center;
+	color: rgb(48, 48, 48);
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
 }
