@@ -84,6 +84,24 @@ a {
 	column-gap: 15px;
 }
 
+.burger{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	row-gap: 5px;
+	width: 30px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+.burger span {
+	height: 1px;
+	background-color: black;
+	width: 100%;
+	display: block;
+}
+
 @media(max-width: 425px) {
 	.footer__inner > div {
 		flex-direction: column;
