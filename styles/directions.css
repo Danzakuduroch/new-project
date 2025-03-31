@@ -1,5 +1,5 @@
 .main__inner h1 {
-	margin-bottom: 30px;
+	margin-block: 30px;
 }
 
 .directions__list{
@@ -46,4 +46,12 @@
 	border-radius: 15px;
 	width: max-content;
 	cursor: pointer;
+}
+
+@media (max-width: 1000px){
+	.directions__list{
+		flex-direction: column;
+		row-gap: 15px;
+		margin-bottom: 20px;
+	}
 }
