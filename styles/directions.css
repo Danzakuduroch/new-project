@@ -1,0 +1,22 @@
+.directions__list{
+	display: flex;
+	column-gap: 20px;
+}
+
+.directions__item {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
+	padding: 20px;
+	border-radius: 15px;
+	max-width: 320px;
+}
+
+.directions__item h2 {
+	text-align: center;
+}
+
+.directions__item p {
+	text-align: center;
+}
+
+.directions__item button {
+}
