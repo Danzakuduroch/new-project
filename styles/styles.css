@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header__inner {
+	padding-block: 20px;
+}
+
+header {
+	background-color: rgba(238, 238, 238, 0.635);
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	flex-shrink: 0;
+}
