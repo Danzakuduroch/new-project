@@ -1,0 +1,23 @@
+main > section {
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.173);
+	background-color: rgb(252, 252, 252);
+	margin-bottom: 15px;
+}
+
+main h2 {
+	padding-block: 30px;
+}
+
+main input {
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+main section {
+	margin-inline: auto;
+	width: max-content;
+}
