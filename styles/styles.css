@@ -46,6 +46,10 @@ footer {
 	margin-bottom: 10px;
 }
 
+.footer__inner li {
+	margin-bottom: 5px;
+}
+
 .footer__inner > div {
 	display: flex;
 	justify-content: space-between;
