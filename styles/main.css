@@ -25,4 +25,9 @@ main {
 	color: white;
 	border-radius: 15px;
 	width: max-content;
+	transition: 0.2s background-color;
+}
+
+.main__inner a:hover {
+	background-color: rgba(0, 0, 0, 0.587);
 }

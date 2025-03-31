@@ -31,4 +31,9 @@ form button {
 	margin-top: 10px;
 	cursor: pointer;
 	font-size: 14px;
+	transition: 0.2s background-color;
+}
+
+form button:hover {
+	background-color: rgba(0, 0, 0, 0.763);
 }

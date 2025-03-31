@@ -45,6 +45,10 @@ footer {
 	column-gap: 20px;
 }
 
+.header__nav li a:hover {
+	text-decoration: underline;
+}
+
 .header__inner{
 	display: flex;
 	justify-content: space-between;
