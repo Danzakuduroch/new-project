@@ -6,6 +6,7 @@ form {
 	flex-direction: column;
 	row-gap: 15px;
 	background-color: rgb(252, 252, 252);
+	min-width: 350px;
 }
 
 form > div {
@@ -23,11 +24,11 @@ form input, select {
 
 form button {
 	display: block;
-	font-size: 16px;
 	padding: 5px 30px;
 	background-color: black;
 	color: white;
 	border-radius: 15px;
 	margin-top: 10px;
 	cursor: pointer;
+	font-size: 14px;
 }
