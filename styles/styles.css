@@ -4,7 +4,13 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+
 body {
+	font-family: Roboto-Regular;
 	min-height: 100vh;
 	background-color: rgb(234, 234, 234);
 	display: flex;

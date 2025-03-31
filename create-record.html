@@ -44,23 +44,23 @@
 	</header>
 	<main>
 		<div class="main__inner container">
-			<form action="">
+			<form onsubmit='return formFn(event)'>
 				<h2>Новая заявка</h2>
 				<div>
 					<label for="">ФИО</label>
-					<input type="text">
+					<input type="text" name='fio'>
 				</div>
 				<div>
 					<label for="">Телефон</label>
-					<input type="text">
+					<input type="text" name='phone'>
 				</div>
 				<div>
 					<label for="">Почта</label>
-					<input type="text">
+					<input type="text" name='email'>
 				</div>
 				<div>
 					<label for="service">Услуга</label>
-					<select name="" id="service">
+					<select name="" id="service" name='service'>
 						<option value="">Замена паспорта</option>
 						<option value="">Получение паспорта</option>
 						<option value="">Регистрация по месту жительства, справки и свидетельства</option>
@@ -69,7 +69,7 @@
 				</div>
 				<div>
 					<label for="">Дата</label>
-					<input type="datetime-local">
+					<input type="datetime-local" name='date'>
 				</div>
 				<button>добавить</button>
 			</form>
@@ -116,6 +116,7 @@
 		</div>
 	</footer>
 	<script src="./scripts/script.js"></script>
+	<script src="./scripts/form.js"></script>
 </body>
 
 </html>
